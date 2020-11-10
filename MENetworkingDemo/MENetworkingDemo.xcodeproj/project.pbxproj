@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D6197EE5EFFC6C878781CE3 /* libPods-MENetworkingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E61D273B84EFC0D43E6D5C /* libPods-MENetworkingDemo.a */; };
+		BE630BAC20B51583005A138D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE630BAB20B51583005A138D /* AppDelegate.m */; };
+		BE630BAF20B51583005A138D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE630BAE20B51583005A138D /* ViewController.m */; };
+		BE630BB220B51583005A138D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE630BB020B51583005A138D /* Main.storyboard */; };
+		BE630BB420B51583005A138D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE630BB320B51583005A138D /* Assets.xcassets */; };
+		BE630BB720B51583005A138D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE630BB520B51583005A138D /* LaunchScreen.storyboard */; };
+		BE630BBA20B51583005A138D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE630BB920B51583005A138D /* main.m */; };
+		BEB0F99C20ECA94B00EF192B /* MEDownOrUploadAPIManger.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB0F98A20ECA94900EF192B /* MEDownOrUploadAPIManger.m */; };
+		BEB0F99D20ECA94B00EF192B /* MERequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB0F98B20ECA94A00EF192B /* MERequestConfig.m */; };
+		BEB0F99E20ECA94B00EF192B /* MENormalAPIManger.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB0F98C20ECA94A00EF192B /* MENormalAPIManger.m */; };
+		BEB0F99F20ECA94B00EF192B /* MEBaseAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB0F98D20ECA94A00EF192B /* MEBaseAPIManager.m */; };
+		BEB0F9A020ECA94B00EF192B /* MENetworkServer.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB0F99020ECA94A00EF192B /* MENetworkServer.m */; };
+		BEB0F9A120ECA94B00EF192B /* MEURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB0F99220ECA94A00EF192B /* MEURLResponse.m */; };
+		BEB0F9A220ECA94B00EF192B /* NSURLRequest+MENetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB0F99420ECA94A00EF192B /* NSURLRequest+MENetworking.m */; };
+		BEB0F9A320ECA94B00EF192B /* MEDataCacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB0F99620ECA94B00EF192B /* MEDataCacheObject.m */; };
+		BEB0F9A420ECA94B00EF192B /* MENetworkOffice.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB0F99820ECA94B00EF192B /* MENetworkOffice.m */; };
+		BEB0F9A820ECB0D900EF192B /* MERequestAPIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB0F9A720ECB0D900EF192B /* MERequestAPIConfig.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16E61D273B84EFC0D43E6D5C /* libPods-MENetworkingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MENetworkingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E4E6CF04A1FF3FEBAF6ACA /* Pods-MENetworkingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MENetworkingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MENetworkingDemo/Pods-MENetworkingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BE630BA720B51583005A138D /* MENetworkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MENetworkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE630BAA20B51583005A138D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE630BAB20B51583005A138D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE630BAD20B51583005A138D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE630BAE20B51583005A138D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE630BB120B51583005A138D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE630BB320B51583005A138D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE630BB620B51583005A138D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE630BB820B51583005A138D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE630BB920B51583005A138D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEB0F98A20ECA94900EF192B /* MEDownOrUploadAPIManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEDownOrUploadAPIManger.m; sourceTree = "<group>"; };
+		BEB0F98B20ECA94A00EF192B /* MERequestConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERequestConfig.m; sourceTree = "<group>"; };
+		BEB0F98C20ECA94A00EF192B /* MENormalAPIManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MENormalAPIManger.m; sourceTree = "<group>"; };
+		BEB0F98D20ECA94A00EF192B /* MEBaseAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEBaseAPIManager.m; sourceTree = "<group>"; };
+		BEB0F98E20ECA94A00EF192B /* MEBaseAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEBaseAPIManager.h; sourceTree = "<group>"; };
+		BEB0F98F20ECA94A00EF192B /* MENetworkOffice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MENetworkOffice.h; sourceTree = "<group>"; };
+		BEB0F99020ECA94A00EF192B /* MENetworkServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MENetworkServer.m; sourceTree = "<group>"; };
+		BEB0F99120ECA94A00EF192B /* MEURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEURLResponse.h; sourceTree = "<group>"; };
+		BEB0F99220ECA94A00EF192B /* MEURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEURLResponse.m; sourceTree = "<group>"; };
+		BEB0F99320ECA94A00EF192B /* MENetworkServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MENetworkServer.h; sourceTree = "<group>"; };
+		BEB0F99420ECA94A00EF192B /* NSURLRequest+MENetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+MENetworking.m"; sourceTree = "<group>"; };
+		BEB0F99520ECA94A00EF192B /* MEDownOrUploadAPIManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEDownOrUploadAPIManger.h; sourceTree = "<group>"; };
+		BEB0F99620ECA94B00EF192B /* MEDataCacheObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEDataCacheObject.m; sourceTree = "<group>"; };
+		BEB0F99720ECA94B00EF192B /* MEDataCacheObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEDataCacheObject.h; sourceTree = "<group>"; };
+		BEB0F99820ECA94B00EF192B /* MENetworkOffice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MENetworkOffice.m; sourceTree = "<group>"; };
+		BEB0F99920ECA94B00EF192B /* MERequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERequestConfig.h; sourceTree = "<group>"; };
+		BEB0F99A20ECA94B00EF192B /* MENormalAPIManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MENormalAPIManger.h; sourceTree = "<group>"; };
+		BEB0F99B20ECA94B00EF192B /* NSURLRequest+MENetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+MENetworking.h"; sourceTree = "<group>"; };
+		BEB0F9A520ECAD3C00EF192B /* MENetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MENetworking.h; sourceTree = "<group>"; };
+		BEB0F9A620ECB0D800EF192B /* MERequestAPIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERequestAPIConfig.h; sourceTree = "<group>"; };
+		BEB0F9A720ECB0D900EF192B /* MERequestAPIConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERequestAPIConfig.m; sourceTree = "<group>"; };
+		E2B58B2139A99A14F1382ACD /* Pods-MENetworkingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MENetworkingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MENetworkingDemo/Pods-MENetworkingDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE630BA420B51583005A138D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6197EE5EFFC6C878781CE3 /* libPods-MENetworkingDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139A80002C8B2B83DE6AC64F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16E61D273B84EFC0D43E6D5C /* libPods-MENetworkingDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BD393C6E57EE2A9C3C858B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1E4E6CF04A1FF3FEBAF6ACA /* Pods-MENetworkingDemo.debug.xcconfig */,
+				E2B58B2139A99A14F1382ACD /* Pods-MENetworkingDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE630B9E20B51583005A138D = {
+			isa = PBXGroup;
+			children = (
+				BE630BC020B515A2005A138D /* MENetWorking */,
+				BE630BA920B51583005A138D /* MENetworkingDemo */,
+				BE630BA820B51583005A138D /* Products */,
+				9BD393C6E57EE2A9C3C858B6 /* Pods */,
+				139A80002C8B2B83DE6AC64F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE630BA820B51583005A138D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE630BA720B51583005A138D /* MENetworkingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE630BA920B51583005A138D /* MENetworkingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BE630BAA20B51583005A138D /* AppDelegate.h */,
+				BE630BAB20B51583005A138D /* AppDelegate.m */,
+				BE630BAD20B51583005A138D /* ViewController.h */,
+				BE630BAE20B51583005A138D /* ViewController.m */,
+				BE630BB020B51583005A138D /* Main.storyboard */,
+				BE630BB320B51583005A138D /* Assets.xcassets */,
+				BE630BB520B51583005A138D /* LaunchScreen.storyboard */,
+				BE630BB820B51583005A138D /* Info.plist */,
+				BE630BB920B51583005A138D /* main.m */,
+			);
+			path = MENetworkingDemo;
+			sourceTree = "<group>";
+		};
+		BE630BC020B515A2005A138D /* MENetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0F9A520ECAD3C00EF192B /* MENetworking.h */,
+				BEB0F98E20ECA94A00EF192B /* MEBaseAPIManager.h */,
+				BEB0F98D20ECA94A00EF192B /* MEBaseAPIManager.m */,
+				BEB0F99720ECA94B00EF192B /* MEDataCacheObject.h */,
+				BEB0F99620ECA94B00EF192B /* MEDataCacheObject.m */,
+				BEB0F99520ECA94A00EF192B /* MEDownOrUploadAPIManger.h */,
+				BEB0F98A20ECA94900EF192B /* MEDownOrUploadAPIManger.m */,
+				BEB0F98F20ECA94A00EF192B /* MENetworkOffice.h */,
+				BEB0F99820ECA94B00EF192B /* MENetworkOffice.m */,
+				BEB0F99320ECA94A00EF192B /* MENetworkServer.h */,
+				BEB0F99020ECA94A00EF192B /* MENetworkServer.m */,
+				BEB0F99A20ECA94B00EF192B /* MENormalAPIManger.h */,
+				BEB0F98C20ECA94A00EF192B /* MENormalAPIManger.m */,
+				BEB0F99920ECA94B00EF192B /* MERequestConfig.h */,
+				BEB0F98B20ECA94A00EF192B /* MERequestConfig.m */,
+				BEB0F99120ECA94A00EF192B /* MEURLResponse.h */,
+				BEB0F99220ECA94A00EF192B /* MEURLResponse.m */,
+				BEB0F99B20ECA94B00EF192B /* NSURLRequest+MENetworking.h */,
+				BEB0F99420ECA94A00EF192B /* NSURLRequest+MENetworking.m */,
+				BEB0F9A620ECB0D800EF192B /* MERequestAPIConfig.h */,
+				BEB0F9A720ECB0D900EF192B /* MERequestAPIConfig.m */,
+			);
+			path = MENetWorking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE630BA620B51583005A138D /* MENetworkingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE630BBD20B51583005A138D /* Build configuration list for PBXNativeTarget "MENetworkingDemo" */;
+			buildPhases = (
+				27187600E9308F46CAEDB1F4 /* [CP] Check Pods Manifest.lock */,
+				BE630BA320B51583005A138D /* Sources */,
+				BE630BA420B51583005A138D /* Frameworks */,
+				BE630BA520B51583005A138D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MENetworkingDemo;
+			productName = MENetworkingDemo;
+			productReference = BE630BA720B51583005A138D /* MENetworkingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE630B9F20B51583005A138D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mmear;
+				TargetAttributes = {
+					BE630BA620B51583005A138D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BE630BA220B51583005A138D /* Build configuration list for PBXProject "MENetworkingDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE630B9E20B51583005A138D;
+			productRefGroup = BE630BA820B51583005A138D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE630BA620B51583005A138D /* MENetworkingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE630BA520B51583005A138D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE630BB720B51583005A138D /* LaunchScreen.storyboard in Resources */,
+				BE630BB420B51583005A138D /* Assets.xcassets in Resources */,
+				BE630BB220B51583005A138D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27187600E9308F46CAEDB1F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MENetworkingDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE630BA320B51583005A138D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB0F99F20ECA94B00EF192B /* MEBaseAPIManager.m in Sources */,
+				BEB0F99C20ECA94B00EF192B /* MEDownOrUploadAPIManger.m in Sources */,
+				BEB0F9A320ECA94B00EF192B /* MEDataCacheObject.m in Sources */,
+				BE630BAF20B51583005A138D /* ViewController.m in Sources */,
+				BEB0F9A420ECA94B00EF192B /* MENetworkOffice.m in Sources */,
+				BE630BBA20B51583005A138D /* main.m in Sources */,
+				BEB0F9A220ECA94B00EF192B /* NSURLRequest+MENetworking.m in Sources */,
+				BEB0F99E20ECA94B00EF192B /* MENormalAPIManger.m in Sources */,
+				BEB0F99D20ECA94B00EF192B /* MERequestConfig.m in Sources */,
+				BEB0F9A120ECA94B00EF192B /* MEURLResponse.m in Sources */,
+				BE630BAC20B51583005A138D /* AppDelegate.m in Sources */,
+				BEB0F9A020ECA94B00EF192B /* MENetworkServer.m in Sources */,
+				BEB0F9A820ECB0D900EF192B /* MERequestAPIConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE630BB020B51583005A138D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE630BB120B51583005A138D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE630BB520B51583005A138D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE630BB620B51583005A138D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE630BBB20B51583005A138D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE630BBC20B51583005A138D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE630BBE20B51583005A138D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E4E6CF04A1FF3FEBAF6ACA /* Pods-MENetworkingDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWFBMQF4YX;
+				INFOPLIST_FILE = MENetworkingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mmear.MENetworkingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE630BBF20B51583005A138D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B58B2139A99A14F1382ACD /* Pods-MENetworkingDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWFBMQF4YX;
+				INFOPLIST_FILE = MENetworkingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mmear.MENetworkingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE630BA220B51583005A138D /* Build configuration list for PBXProject "MENetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE630BBB20B51583005A138D /* Debug */,
+				BE630BBC20B51583005A138D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE630BBD20B51583005A138D /* Build configuration list for PBXNativeTarget "MENetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE630BBE20B51583005A138D /* Debug */,
+				BE630BBF20B51583005A138D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE630B9F20B51583005A138D /* Project object */;
+}
